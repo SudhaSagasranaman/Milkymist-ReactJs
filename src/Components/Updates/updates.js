@@ -6,7 +6,7 @@ export function Updates(){
       <div className = "homeContainer mt-5 smallFont"> 
          <div className = "cardContainer1 ms-2">
              <div className ="row">
-                 <div className = "col-12 col-lg-4 col-md-4 col-sm-6">
+                 <div className = "col-12 col-sm-12 col-lg-4 col-md-4 col-sm-6">
                       <div className="card">
               <div className="position-relative">
 
@@ -22,7 +22,7 @@ export function Updates(){
       </div> 
    </div>
 
-  <div className = "col-12 col-lg-4 col-md-4 col-sm-6">
+  <div className = "col-12 col-sm-12 col-lg-4 col-md-4 col-sm-6">
                       <div className="card">
               <div className="position-relative">
 
@@ -38,7 +38,7 @@ Introducing our Coffee and Butterscotch milkshake variants—the ultimate pick-m
 </div>
                  </div>
 
-                 <div className = "col-12 col-lg-4 col-md-4 col-sm-6">
+                 <div className = "col-12 col-sm-12 col-lg-4 col-md-4 col-sm-6">
                       <div className="card">
               <div className="position-relative">
 
@@ -57,7 +57,7 @@ Introducing Capella, our exceptional assortment of chocolate delights. Immerse y
          </div>
        <div className = "cardContainer1 ms-2">
              <div className ="row">
-                 <div className = "col-12 col-lg-4 col-md-4 col-sm-6">
+                 <div className = "col-12 col-sm-12 col-lg-4 col-md-4 col-sm-6">
                       <div className="card">
               <div className="position-relative">
 
@@ -73,7 +73,7 @@ Introducing our new Greek yogurt blend: creamy, probiotic-packed, with honey and
 </div> 
                  </div>
 
-                <div className = "col-12 col-lg-4 col-md-4 col-sm-6">
+                <div className = "col-12 col-sm-12 col-lg-4 col-md-4 col-sm-6">
                       <div className="card">
               <div className="position-relative">
 
@@ -89,7 +89,7 @@ Milky Mist has launched Skyr Yogurt in two convenient sizes — 700g and 225g
 </div>
 </div>
 
-<div className = "col-12 col-lg-4 col-md-4 col-sm-6">
+<div className = "col-12 col-sm-12 col-lg-4 col-md-4 col-sm-6">
 <div className="card">
 <div className="position-relative">
   <img src="https://static.wixstatic.com/media/60b717_8b6945796e344717af58abde7e71901d~mv2.png/v1/fill/w_2400,h_1254,al_c/60b717_8b6945796e344717af58abde7e71901d~mv2.png" className="card-img-top" alt="..."/>

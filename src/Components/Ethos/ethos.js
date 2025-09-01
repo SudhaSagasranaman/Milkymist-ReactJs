@@ -4,7 +4,7 @@ export function Ethos(){
         <>
           <div class = "container  mt-5">
           <div className = "row">
-          <div className="col-12 col-lg-4 col-md-4">
+          <div className="col-12 col-sm-12 col-lg-4 col-md-4">
           <div className="card bg-dark fw-bold text-white" >
             <img className="card-img cardImgOverlay" src="https://m.media-amazon.com/images/I/71I6k9bQmHL.jpg" alt="Card image"/>
             <div className="card-img-overlay">
@@ -14,7 +14,7 @@ export function Ethos(){
             </div>
         </div>
 
-        <div className="col-12 col-lg-4 col-md-4">
+        <div className="col-12 col-sm-12 col-lg-4 col-md-4">
                 <div className="card bg-dark fw-bold text-tertiary">
            <img className="card-img cardImgOverlay" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkzNHSL_bCE3_4L6IzsxT_YmSmUyX7xPzw7g&s" alt="Card image"/>
             <div className="card-img-overlay">
@@ -29,7 +29,7 @@ Wishing you and your family a blessed Ganesh Chaturth.</p>
         </div>
 
 
-        <div className="col-12 col-lg-4 col-md-4">
+        <div className="col-12 col-sm-12 col-lg-4 col-md-4">
    
       <iframe
         src="https://www.youtube.com/embed/_F9YvjqrtOw"
@@ -47,7 +47,7 @@ Wishing you and your family a blessed Ganesh Chaturth.</p>
     
     <div className= "container mt-5 smallFont">
      <div className = "row">
-       <div className="col-12 col-lg-4 col-md-4">
+       <div className="col-12 col-sm-12 col-lg-4 col-md-4">
   <div className="card text-center p-4 shadow-sm h-100">
             <i className="bi bi-leaf fs-1 text-success"></i>
             <div className="card-body">
@@ -58,7 +58,7 @@ The best gift we can give the future generations is the green earth. We generate
              </div>
     </div>
 </div>
-        <div className="col-12 col-lg-4 col-md-4">
+        <div className="col-12 col-sm-12 col-lg-4 col-md-4">
   <div className="card text-center p-4 shadow-sm h-100">
         <i className="bi bi-patch-check-fill fs-1 text-primary"></i>
             <div className="card-body">
@@ -70,7 +70,7 @@ To deliver top quality products is Milky Mist’s utmost priority. At every stag
 </div>
 
  
-<div className="col-12 col-lg-4 col-md-4">
+<div className="col-12 col-sm-12 col-lg-4 col-md-4">
   <div className="card text-center p-4 shadow-sm h-100">
             <i className="bi bi-people-fill fs-1 text-warning"></i>
             <div className="card-body">
