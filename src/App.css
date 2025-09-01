@@ -1,0 +1,77 @@
+
+.textContainer.cardContainer{
+    width: 100vw;
+    height:50vh;
+    text-align:center;
+}
+.cardContainer1{
+    width: 100vw;
+    height:90vh;
+    text-align:center;
+}
+.cardContainer1 .card-img-top {
+  height: 300px;  
+        /* same height for all cards */
+  object-fit:cover; 
+   border-radius: 50px;
+   /* crop nicely without stretching */
+  }   
+
+.cardContainer1 .card{
+ border-radius: 50px;
+ width:300px;
+ border:none;
+ transition:0.3s ease;  /* smooth animation */
+}
+
+.cardContainer1 .card:hover {
+  transform: scale(0.90);  /* shrink to 95% */
+}
+.smallFont{
+    font-size:small;
+}
+.card, .card-img{
+     border-radius: 50px;
+
+}
+
+.mt-10{
+    margin-top:150px !important;
+}
+
+/* Hide only the text initially */
+.card-hover-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* On card hover, fade text in */
+.card:hover .card-hover-text {
+  opacity: 1;
+}
+
+/* Smooth blur effect on image */
+.cardImgOverlay {
+  transition: filter 0.4s ease;
+}
+
+.card:hover .cardImgOverlay {
+  filter: blur(4px);
+}
+
+iframe{
+    width:100%;
+    height:100%;
+    border-radius: 50px;
+}
+
+/* Blur image when hovering on card */
+.card:hover .cardImgOverlay {
+  filter: blur(4px);
+}
+
+.container-fluid a {
+  color: white;
+  text-decoration: none;
+}
+
