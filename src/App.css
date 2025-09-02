@@ -10,16 +10,20 @@
     text-align:center;
 }
 .cardContainer1 .card-img-top {
-  height: 300px;  
+   height: 300px; 
         /* same height for all cards */
   object-fit:cover; 
-   border-radius: 50px;
+  border-radius: 50px;
    /* crop nicely without stretching */
   }   
+  .navy-text {
+  color: rgb(3, 3, 40)
+;   /* Classic navy */
+}
 
 .cardContainer1 .card{
  border-radius: 50px;
- width:300px;
+ width:300px; 
  border:none;
  transition:0.3s ease;  /* smooth animation */
 }

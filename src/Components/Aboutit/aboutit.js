@@ -15,26 +15,25 @@ export function Aboutit(){
                 
                 <div className = "container-fluid mt-5"> 
                 <Marquee pauseOnHover={true} gradient={false} speed={50} autoFill={true}>
-                <div class = "row g-1">
-                 <div class = "col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class = "row g-0 h-90 w-90">
+                 <div class = "col-2 col-sm-6 col-md-4 col-lg-3">
                 <div class="card">
                 <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5JCsb_vReAcZkZKlnOxlvLmGIN2PaXBwlLQ&s" alt="Card image cap"/>
                </div>
                </div>
-                <div class = "col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class = "col-3  col-md-3 col-lg-3">
                <div class="card">
                 <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqYZbW1WK0VULjYD4v9OddT_zEJ-jaokqQ4A&s" alt="Card image cap"/>
-                
                 </div>
                 </div>
                 
-                <div class = "col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class = "col-3 col-md-3 col-lg-3">
                 <div class="card">
                 <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXdONTSDYu8Xa3_iO468TeHL3R-6KI7E9pzw&s" alt="Card image cap"/>
                 </div>
                 </div>
                 
-                <div class = "col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class = "col-3 col-md-3 col-lg-3">
                 <div class="card my-card-no-space">
                 <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjl8TGbL87VOg9pnOLVDQANS4AVShQFJs4sA&s" alt="Card image cap"/>
                 </div>
