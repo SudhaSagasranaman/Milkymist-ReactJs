@@ -2,10 +2,10 @@ import React from "react";
 export function Updates() {
   return (
     <>
-      <h1 className="text-center">Latest Updates</h1>
-      <div className="homeContainer mt-5 smallFont">
-        <div className="cardContainer1 ms-2">
-          <div className="row">
+      <h1 className="text-center my-5">Latest Updates</h1>
+      <div className="homeContainer mt-5">
+        <div className="cardContainer1  d-flex justify-content-center mb-5">
+          <div className="row justify-content-center">
             <div className="col-10 col-sm-6 col-md-4 col-lg-4 mx-auto">
               <div className="card">
                 <div className="position-relative">
@@ -14,7 +14,7 @@ export function Updates() {
                   <button className="position-absolute bottom-0 start-50 translate-middle-x btn btn-primary text-center rounded-pill smallFont ">New launch</button>
                 </div>
                 <div className="card-body">
-                  <p className="card-text"><span className="text-center fw-bold">Ice Cream</span><br />
+                  <p className="card-text smallFont"><span className="text-center fw-bold">Ice Cream</span><br />
                     Scoop into Happiness! Our latest Ice Cream creations are here to delight your taste buds – A frosty adventure awaits!</p>
 
 
@@ -30,7 +30,7 @@ export function Updates() {
                   <button className="position-absolute bottom-0 start-50 translate-middle-x btn btn-primary text-center rounded-pill smallFont ">New launch</button>
                 </div>
                 <div className="card-body">
-                  <p className="card-text"><span className="text-center fw-bold">Milkshakes(Coffee,Butterscotch)</span><br />
+                  <p className="card-text smallFont"><span className="text-center fw-bold">Milkshakes(Coffee,Butterscotch)</span><br />
                     Introducing our Coffee and Butterscotch milkshake variants—the ultimate pick-me-up for your day! Guaranteed to keep you refreshed all day, indulge in pure delight with every sip.
 
                   </p>
@@ -46,7 +46,7 @@ export function Updates() {
                   <button className="position-absolute bottom-0 start-50 translate-middle-x btn btn-primary text-center rounded-pill smallFont ">New launch</button>
                 </div>
                 <div className="card-body">
-                  <p className="card-text"><span className="text-center fw-bold">Capella Choclate</span><br />
+                  <p className="card-text smallFont"><span className="text-center fw-bold">Capella Choclate</span><br />
                     Introducing Capella, our exceptional assortment of chocolate delights. Immerse yourself in the rich velvety goodness that promises to delight your taste buds with every bite.
 
                   </p>
@@ -55,8 +55,8 @@ export function Updates() {
             </div>
           </div>
         </div>
-        <div className="cardContainer1 ms-2">
-          <div className="row">
+        <div className="cardContainer1 d-flex justify-content-center">
+          <div className=" row justify-content-center">
             <div className="col-10 col-sm-6 col-md-4 col-lg-4 mx-auto">
               <div className="card">
                 <div className="position-relative">
@@ -65,7 +65,7 @@ export function Updates() {
                   <button className="position-absolute bottom-0 start-50 translate-middle-x btn btn-primary text-center rounded-pill smallFont ">New launch</button>
                 </div>
                 <div className="card-body">
-                  <p className="card-text"><span className="text-center fw-bold">Greek Yogurt Honey & Fig</span><br />
+                  <p className="card-text smallFont"><span className="text-center fw-bold">Greek Yogurt Honey & Fig</span><br />
                     Introducing our new Greek yogurt blend: creamy, probiotic-packed, with honey and figs for a sweet, healthy start to your day!
 
                   </p>
@@ -81,7 +81,7 @@ export function Updates() {
                   <button className="position-absolute bottom-0 start-50 translate-middle-x btn btn-primary text-center rounded-pill smallFont ">New launch</button>
                 </div>
                 <div className="card-body">
-                  <p className="card-text"><span className="text-center fw-bold">SKYR Yogurt</span><br />
+                  <p className="card-text smallFont"><span className="text-center fw-bold">SKYR Yogurt</span><br />
                     Milky Mist has launched Skyr Yogurt in two convenient sizes — 700g and 225g
 
                   </p>
@@ -97,7 +97,7 @@ export function Updates() {
                 </div>
 
                 <div className="card-body">
-                  <p className="card-text"><span className="text-center fw-bold">Greek Yogurt</span><br />
+                  <p className="card- smallFont"><span className="text-center fw-bold">Greek Yogurt</span><br />
                     Greek Yogurt is now available in three refreshing flavors Blueberry, Mango, and Peach.
 
                   </p>

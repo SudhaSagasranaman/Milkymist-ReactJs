@@ -15,7 +15,7 @@ export function Ethos() {
                     </div>
 
                     <div className="col-12 col-sm-12 col-lg-4 col-md-4">
-                        <div className="card fw-bold text-tertiary">
+                        <div className="card fw-bold text-white">
                             <img className="card-img cardImgOverlay" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkzNHSL_bCE3_4L6IzsxT_YmSmUyX7xPzw7g&s" alt="Card image" />
                             <div className="card-img-overlay">
 
@@ -53,7 +53,7 @@ export function Ethos() {
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Green Energy</h5>
 
-                                <p className="card-text">Green Energy
+                                <p className="card-text smallFont">Green Energy
                                     The best gift we can give the future generations is the green earth. We generate renewable energy - 24 MW from solar plants and 2 MW from wind plant situated in Tamil Nadu</p>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ export function Ethos() {
                             <i className="bi bi-patch-check-fill fs-1 text-primary"></i>
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Assured Quality</h5>
-                                <p className="card-text">
+                                <p className="card- smallFont">
                                     Assured Quality
                                     To deliver top quality products is Milky Mist’s utmost priority. At every stage of the production process, strict monitoring and quality control are ensured by a advanced machinery and operational efficiency. </p>          </div>
                         </div>
@@ -75,7 +75,7 @@ export function Ethos() {
                             <i className="bi bi-people-fill fs-1 text-warning"></i>
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Capitalising Community</h5>
-                                <p className="card-text">
+                                <p className="card-text smallFont">
                                     Milky Mist has developed a structured milk procurement system that ensures a steady supply of high-quality raw milk. Our manufacturing facility in Perundurai, Erode District, Tamil Nadu, benefits from strong ties with the region’s dairy farming community, supporting consistent and efficient sourcing practices..</p>
                             </div>
                         </div>

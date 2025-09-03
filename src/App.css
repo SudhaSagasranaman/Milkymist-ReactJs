@@ -1,60 +1,67 @@
+.textContainer.cardContainer {
+  width: 100vw;
+  text-align: center;
+  padding: 30px 15px;
+}
 
-.textContainer.cardContainer{
-    width: 100vw;
-    height:50vh;
-    text-align:center;
+.cardContainer1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;  /* more spacing between rows */
 }
-.cardContainer1{
-    width: 100vw;
-    height:90vh;
-    text-align:center;
-}
+
 .cardContainer1 .card-img-top {
-   height: 300px; 
-        /* same height for all cards */
-  object-fit:cover; 
-  border-radius: 50px;
-   /* crop nicely without stretching */
-  }   
-  .navy-text {
-  color: rgb(3, 3, 40)
-;   /* Classic navy */
+  height: 250px;         /* back to your original size */
+  object-fit: cover;
+  border-radius: 50px;   /* ✅ rounded like before */
 }
 
-.cardContainer1 .card{
- border-radius: 50px;
- width:300px; 
- border:none;
- transition:0.3s ease;  /* smooth animation */
+.navy-text {
+  color: rgb(3, 3, 40);   /* Classic navy */
+}
+
+.cardContainer1 .card {
+  border-radius: 50px;   /* ✅ rounded like before */
+  width: 250px;          /* ✅ fixed size like before */
+  margin: 20px auto;
+  border: none;
+  transition: 0.3s ease;
 }
 
 .cardContainer1 .card:hover {
-  transform: scale(0.90);  /* shrink to 95% */
-}
-.smallFont{
-    font-size:small;
-}
-.card, .card-img{
-     border-radius: 50px;
-
+  transform: scale(0.95);
 }
 
-.mt-10{
-    margin-top:150px !important;
+.marquee-card img {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 20px;   /* can also make 50px if you want same style */
 }
 
-/* Hide only the text initially */
+.card-body {
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.smallFont {
+  font-size: small;
+}
+
+.mt-10 {
+  margin-top: 150px !important;
+}
+
 .card-hover-text {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
-/* On card hover, fade text in */
 .card:hover .card-hover-text {
   opacity: 1;
 }
 
-/* Smooth blur effect on image */
 .cardImgOverlay {
   transition: filter 0.4s ease;
 }
@@ -63,19 +70,78 @@
   filter: blur(4px);
 }
 
-iframe{
-    width:100%;
-    height:100%;
-    border-radius: 50px;
-}
-
-/* Blur image when hovering on card */
-.card:hover .cardImgOverlay {
-  filter: blur(4px);
+iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;   /* ✅ same rounded style */
 }
 
 .container-fluid a {
   color: white;
   text-decoration: none;
+}
+/* For image cards */
+.cardImgOverlay {
+  border-radius: 50px;       /* rounded corners */
+  overflow: hidden;          /* ensures corners apply to image */
+}
+
+.cardImgOverlay img, 
+iframe {
+  border-radius: 50px;       /* applies rounding to images & iframe */
+}
+
+/* Hover effect (already in your CSS, just keeping rounded look) */
+.card:hover .cardImgOverlay {
+  filter: blur(4px);
+  transition: filter 0.4s ease;
+}
+
+/* For info cards with icons */
+.container .card {
+  border-radius: 50px;       /* rounded corners for all cards */
+}
+.card img {
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.3); /* subtle overlay */
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;  /*  moves content to bottom */
+  align-items: flex-start;    /*  left align text */
+  padding: 30px;              /* spacing inside overlay */
+}
+
+/* Overlay text sizes in px */
+.overlay-subtitle {
+  font-size: 18px;   /* ~h5 */
+  font-weight: 500;
+}
+
+.overlay-title {
+  font-size: 32px;   /* ~h2 */
+  font-weight: 700;
+}
+
+.overlay-desc {
+  font-size: 14px;   /* small text */
+  line-height: 20px;
+}
+
+/* ✅ Mobile adjustments */
+@media (max-width: 768px) {
+  .overlay-title {
+    font-size: 20px;
+  }
+  .overlay-subtitle {
+    font-size: 14px;
+  }
+  .overlay-desc {
+    font-size: 12px;
+  }
 }
 
